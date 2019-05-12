@@ -36,6 +36,7 @@ namespace matchPairs
           Console.WriteLine(correctness("([]())")); // True
           Console.WriteLine(correctness("([()({})])")); //True
           Console.WriteLine(correctness("([)]")); //False
+          Console.WriteLine(correctness("([{]})")); //False
       }
     }
 }
